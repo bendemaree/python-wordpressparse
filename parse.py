@@ -12,7 +12,7 @@ import time
 import codecs
 
 DEBUG = False
-FILENAME = 'am.xml'
+FILENAME = 'my-wordpress-export.xml'
 
 tree = etree.parse(FILENAME)
 namespaces = tree.getroot().nsmap
